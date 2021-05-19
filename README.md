@@ -4,6 +4,11 @@
 ![LeNet-5 Architecture](lenet.png)
 Implement the LeNet-5 deep neural network model.
 
+### MNIST_data
+
+Download the data from [THE MNIST DATABASE of handwritten digits](http://yann.lecun.com/exdb/mnist/) 
+
+
 ### Dependencies
 This lab requires:
 
@@ -40,7 +45,6 @@ command that prints the working directory. This command will be used
 differently based on your shell.
 
 
-
 If you're using `bash` or Docker Quickstart Terminal:
 
 ```sh
@@ -75,7 +79,3 @@ To learn more about Docker [visit the docs](https://docs.docker.com/engine/userg
 
 [carnd_docker_hub]: https://hub.docker.com/r/udacity/carnd-term1-starter-kit/
 
-### Notes
-
-`from tensorflow.examples.tutorials.mnist import input_data` not responsing. 
-Just use the predownloaed data.
