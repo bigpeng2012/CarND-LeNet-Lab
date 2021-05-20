@@ -51,6 +51,7 @@ If you're using `bash` or Docker Quickstart Terminal:
 docker run -it --rm --entrypoint "/run.sh" -p 8888:8888 -v `pwd`:/src udacity/carnd-term1-starter-kit
 ```
 
+
 Let's break this down.
 
 `docker run` is the command a startup and run a Docker container.
